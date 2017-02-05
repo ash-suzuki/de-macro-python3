@@ -1,0 +1,19 @@
+\documentclass{jsarticle}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{amsthm}
+\usepackage{ascmac}
+\usepackage{mathtools}
+\usepackage{alias-private}
+\title{Definition of Normalized Maximum Likelihood Distribution \newline 正規化最尤分布の定義}
+\begin{document}
+\maketitle
+正規化最尤分布は以下のように定義される。
+\begin{equation}
+    \NMLPDF{\Data} \DefEq \frac{\ModelPDF{\Data}{\MLE{\Data}}}{\DummyDataSum \ModelPDF{\DummyData}{\MLE{\DummyData}}}
+\end{equation}
+\end{document}

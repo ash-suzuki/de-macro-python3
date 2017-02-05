@@ -1,0 +1,10 @@
+*.exe
+*.aux
+*.bak
+*.dat
+*.dir
+*.dvi
+*.fdb_latexmk
+*.fls
+*.log
+*.gz
